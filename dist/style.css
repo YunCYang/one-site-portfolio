@@ -1,0 +1,130 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  max-width: 900px;
+}
+
+section#home div,
+div.about-content {
+  width: 50%;
+}
+
+div.info {
+  min-width: 240px;
+  height: 110px;
+}
+
+section#home,
+section#work,
+section#about {
+  min-height: 100vh;
+}
+
+.navbar,
+#root > div,
+section#home,
+section#about,
+div.about-content,
+div.skill-content,
+section#contact,
+section#contact div.container,
+section#contact div.container div,
+footer div {
+  display: flex;
+}
+
+#root > div,
+div.about-content,
+section#contact,
+section#contact div.info {
+  flex-direction: column;
+}
+
+div.skill-content {
+  justify-content: space-between;
+}
+
+section#contact div.info a:first-child {
+  align-items: flex-start;
+}
+
+.navbar {
+  justify-content: flex-end;
+}
+
+section#contact div.container,
+footer div {
+  justify-content: center;
+}
+
+.navbar,
+section#home div,
+div.about-content {
+  margin: auto;
+}
+
+nav a {
+  font-size: 20px;
+}
+
+section#home p,
+section#home span {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+section#contact i {
+  font-size: 60px;
+}
+
+div.top-divider {
+  border-top: 100px solid #FFF;
+  border-right: 100vw solid transparent;
+}
+
+div.bot-divider {
+  border-bottom: 100px solid #FFF;
+  border-left: 100vw solid transparent;
+}
+
+nav a,
+footer span,
+section#contact div.info {
+  padding: 8px 40px 7px 40px;
+  line-height: 2;
+}
+
+section#contact div.container * {
+  margin: 0 auto 10px auto;
+}
+
+section#contact {
+  background-color: dimgray;
+}
+
+.navbar {
+  box-shadow: rgb(245, 245, 245) 0 2px 0 0;
+}
+
+nav a,
+footer span {
+  color: rgb(117, 117, 117);
+}
+
+section#contact a {
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+}

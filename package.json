@@ -1,0 +1,41 @@
+{
+  "name": "one-site-portfolio",
+  "version": "1.0.0",
+  "description": "Simple one-site portfolio using React",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2015,
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YunCYang/one-site-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YunCYang/one-site-portfolio/issues"
+  },
+  "homepage": "https://github.com/YunCYang/one-site-portfolio#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
