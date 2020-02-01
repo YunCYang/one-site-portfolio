@@ -72,6 +72,11 @@ div.about-content {
   margin: auto;
 }
 
+div.skill h3,
+div.skill h4 {
+  text-align: center;
+}
+
 nav a {
   font-size: 20px;
 }
@@ -97,6 +102,10 @@ div.bot-divider {
   border-left: 100vw solid transparent;
 }
 
+div.profile a {
+  position: relative;
+}
+
 nav a,
 footer span,
 section#contact div.info {
@@ -104,8 +113,18 @@ section#contact div.info {
   line-height: 2;
 }
 
+div.profile a {
+  padding: 20px;
+  display: inline-block;
+  left: -20px;
+}
+
 section#contact div.container * {
   margin: 0 auto 10px auto;
+}
+
+div.profile {
+  margin-bottom: 60px;
 }
 
 section#contact {
@@ -117,7 +136,8 @@ section#contact {
 }
 
 nav a,
-footer span {
+footer span,
+div.profile a span {
   color: rgb(117, 117, 117);
 }
 
@@ -127,4 +147,105 @@ section#contact a {
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    justify-content: center;
+  }
+  section#home p {
+    margin-top: 40px;
+  }
+  section#home p,
+  section#home span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div.info {
+    min-width: 160px;
+  }
+  div.info a:nth-child(2) {
+    display: none;
+  }
+  div.info i {
+    position: relative;
+    top: 25px;
+  }
+  section#contact div.info {
+    padding: 8px 40px 7px 40px;
+    line-height: 2;
+  }
+  section#contact i {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  section#home p,
+  section#home span {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  div.profile {
+    text-align: center;
+    font-size: 14px;
+  }
+  div.profile a {
+    left: 0px;
+  }
+  div.skill-content ul {
+    padding-left: 15px;
+  }
+  div.skill-content li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section#home p,
+  section#home span {
+    font-size: 20px;
+  }
+  nav a {
+    padding: 8px 20px 7px 20px;
+  }
+  div.info {
+    min-width: 120px;
+  }
+  div.skill-content h4 {
+    font-size: 14px;
+  }
+  div.skill-content {
+    flex-direction: column;
+  }
+   div.skill-content ul {
+    padding-left: 0;
+  }
+  div.skill-content li {
+    list-style: none;
+    display: inline-block;
+    margin: 2.5px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  section#home p,
+  section#home span {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav a {
+    padding: 8px 10px 7px 10px;
+  }
+  div.info {
+    min-width: 80px;
+  }
+  section#contact div.info {
+    padding: 8px 20px 7px 20px;
+    line-height: 2;
+  }
 }
