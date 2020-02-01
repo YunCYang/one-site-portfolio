@@ -9,12 +9,18 @@ const About = () => {
           <p>
             I'm a full-stack web developer who love to learn and experiment
             with new technologies. I started my journey using jQery and HTML/CSS.
-            My current focus is on application development with ReactJs and NodeJs.
+            My current focus is on ReactJs and NodeJs.
           </p>
           <p>
             While not working, I can often be found rock climbing in the wild
-            or at the gyms.
+            or at gyms.
           </p>
+          <a href="https://docs.google.com/document/d/1ADxY-7RlgksbFlrYE9TV-SwRh6Hu5gbi7Ch4BUl5aUo/edit?usp=sharing"
+            target="_blank">
+            <span className="resume">
+              Resume
+            </span>
+          </a>
         </div>
         <div className='container skill'>
           <h3>Skills</h3>
@@ -22,11 +28,11 @@ const About = () => {
             <div>
               <h4>Client</h4>
               <ul>
-                <li>Javascript ES6+</li>
+                <li>Javascript</li>
                 <li>ReactJs</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
-                <li>Bootstrap 4</li>
+                <li>Bootstrap</li>
                 <li>jQery</li>
               </ul>
             </div>
@@ -44,7 +50,7 @@ const About = () => {
                 <li>VS Code</li>
                 <li>Git</li>
                 <li>AWS</li>
-                <li>Weboack</li>
+                <li>Webpack</li>
               </ul>
             </div>
           </div>

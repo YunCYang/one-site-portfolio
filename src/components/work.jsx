@@ -1,10 +1,11 @@
 import React from 'react';
+import WorkList from './workList';
 
 const Work = () => {
   return (
     <section id='work'>
       <div className='container'>
-        <div></div>
+        <WorkList/>
       </div>
     </section>
   );
