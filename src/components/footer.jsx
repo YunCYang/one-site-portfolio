@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <span>© Yun C Yang 2019</span>
+        <span>© Yun C Yang 2020</span>
       </div>
     </footer>
   );
