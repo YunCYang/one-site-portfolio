@@ -1,11 +1,16 @@
 import React from 'react';
-import WorkList from './workList';
+import WorkItem from './workItem';
+import workList from '../data/workList';
 
 const Work = () => {
+  const renderWorkItem = () => {
+    return workList.map(item => <WorkItem item={item} />);
+  };
+
   return (
     <section id='work'>
       <div className='container'>
-        <WorkList/>
+        {renderWorkItem()}
       </div>
     </section>
   );

@@ -7,8 +7,8 @@ const About = () => {
         <div className='container profile'>
           <h1>About Me</h1>
           <p>
-            I'm a full-stack web developer who love to learn and experiment
-            with new technologies. I started my journey using jQery and HTML/CSS.
+            I'm a full-stack software engineer who loves to learn and experiment
+            with new technologies. I started my journey using jQuery and HTML/CSS.
             My current focus is on ReactJs and NodeJs.
           </p>
           <p>
@@ -30,10 +30,13 @@ const About = () => {
               <ul>
                 <li>Javascript</li>
                 <li>ReactJs</li>
+                <li>React Router</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>Bootstrap</li>
-                <li>jQery</li>
+                <li>jQuery</li>
+                <li>Sass</li>
+                <li>Redux</li>
               </ul>
             </div>
             <div>
@@ -49,6 +52,8 @@ const About = () => {
               <ul>
                 <li>VS Code</li>
                 <li>Git</li>
+                <li>Jest</li>
+                <li>Babel</li>
                 <li>AWS</li>
                 <li>Webpack</li>
               </ul>

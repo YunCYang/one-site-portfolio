@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   const [index, setIndex] = React.useState(0);
-  const roles = ['Full-Stack Developer', 'Web Designer', 'Tech Enthusiast', 'Creative Coder'];
+  const roles = ['Software Engineer', 'Full-Stack Developer', 'Web Designer', 'Tech Enthusiast', 'Creative Coder'];
 
   const interactiveRole = () => {
     return (

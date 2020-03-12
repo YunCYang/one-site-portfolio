@@ -18,6 +18,80 @@ div.about-content {
   width: 50%;
 }
 
+section#work div.item {
+  width: calc(50vw - 4.6em);
+  height: 25vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 8px 2px #888;
+  display: flex;
+  align-items: flex-end;
+}
+
+section#work div.item.hover {
+  align-items: center;
+}
+
+section#work div.item > div {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+div.tag, div.link {
+  display: flex;
+}
+
+div.name-tag {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+}
+
+div.name {
+  font-size: 1.6em;
+  margin-bottom: 0.1em;
+  padding-left: 0.15em;
+}
+
+div.tag {
+  font-size: 0.8em;
+}
+
+div.tag > div {
+  padding: 0.1em 0.15em 0.1em 0.15em;
+  margin: 0 0.15em 0 0.15em;
+  background-color: royalblue;
+  color: #fff;
+  border-radius: 5px;
+}
+
+div.desc {
+  padding: 0.2em;
+  margin-bottom: 1em;
+}
+
+div.link {
+  justify-content: space-around;
+}
+
+div.link > div {
+  border: 1px solid dimgray;
+  border-radius: 5px;
+}
+
+div.link > div a {
+  padding: 0.6em 0.4em;
+  color: dimgray;
+}
+
+div.link > div:hover {
+  background-color: dimgray;
+}
+
+div.link > div a:hover {
+  color: #fff;
+}
+
 div.info {
   min-width: 240px;
   height: 110px;
@@ -32,6 +106,7 @@ section#about {
 .navbar,
 #root > div,
 section#home,
+section#work div.container,
 section#about,
 div.about-content,
 div.skill-content,
@@ -40,6 +115,11 @@ section#contact div.container,
 section#contact div.container div,
 footer div {
   display: flex;
+}
+
+section#work div.container {
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 #root > div,
@@ -119,12 +199,20 @@ div.profile a {
   left: -20px;
 }
 
+div.navbar > div:hover {
+  border-bottom: 1px #000 solid;
+}
+
 section#contact div.container * {
   margin: 0 auto 10px auto;
 }
 
 div.profile {
   margin-bottom: 60px;
+}
+
+section#work div.item {
+  margin: 2em;
 }
 
 section#contact {
@@ -139,6 +227,10 @@ nav a,
 footer span,
 div.profile a span {
   color: rgb(117, 117, 117);
+}
+
+nav a:hover {
+  color: #000;
 }
 
 section#contact a {
@@ -179,6 +271,10 @@ a {
   }
   section#contact i {
     font-size: 50px;
+  }
+  section#work div.item {
+    width: calc(100vw - 2em);
+    height: 50vw;
   }
 }
 
