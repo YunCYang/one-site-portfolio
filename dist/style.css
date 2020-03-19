@@ -6,13 +6,11 @@ body * {
 
 body {
   margin: 0;
-  width: 100vw;
 }
 
 #root {
   overflow-x: hidden;
   position: relative;
-  width: 100%;
 }
 
 
@@ -117,7 +115,6 @@ section#work div.container,
 section#about,
 div.about-content,
 div.skill-content,
-section#contact,
 section#contact div.container,
 section#contact div.container div,
 footer div {
@@ -131,7 +128,6 @@ section#work div.container {
 
 #root > div,
 div.about-content,
-section#contact,
 section#contact div.info {
   flex-direction: column;
 }
